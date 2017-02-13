@@ -1,0 +1,61 @@
+<html lang="en-us" ng-app="weatherApp">
+    <head>
+        <title>Introduction to AngularJS</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="UTF-8">
+
+        <!-- load bootstrap and fontawesome via CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <script src="//code.angularjs.org/1.6.0-rc.2/angular.min.js"></script>
+        <script src ="//code.angularjs.org/1.6.0-rc.2/angular-messages.min.js"></script>
+        <script src ="//code.angularjs.org/1.6.0-rc.2/angular-resource.min.js"></script>
+        <script src="//code.angularjs.org/1.6.0-rc.2/angular-route.min.js"></script>
+        <script src="app.js"></script>
+        <script src="routes.js"></script>
+        <script src="controllers.js"></script>
+        <script src="directives.js"></script>
+        <script src="services.js"></script>
+        
+    </head>
+    
+    
+    
+    <body>
+
+        <header>
+			<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="/">Angular Wealther App</a>
+				</div>
+			</div>
+			</nav>
+		</header>
+    
+        <div class = "container">
+        
+            <div ng-view></div>
+        
+        </div>        
+
+                
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
